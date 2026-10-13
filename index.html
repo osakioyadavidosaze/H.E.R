@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Love</title>
+    <meta
+      name="description"
+      content="A romantic photo gallery for the love of my life."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-blur background-blur-one"></div>
+    <div class="background-blur background-blur-two"></div>
+
+    <header class="topbar">
+      <div class="brand">For You</div>
+      <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#story">Our Story</a>
+        <a href="#message">Love Note</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">My favorite person</p>
+          <h1>Every moment with you feels like a love story.</h1>
+          <p class="hero-text">
+            A little album of us — the smiles, the glances, the memories, and all the
+            little things that make life feel softer when you are in it.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="#gallery">Open the album</a>
+            <a class="button secondary" href="#message">Read my note</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Featured love portrait">
+          <div class="photo-frame">
+            <img
+              src="WhatsApp Image 2026-10-12 at 9.35.20 AM.jpeg"
+              alt="Portrait of my favorite person"
+            />
+          </div>
+          <div class="floating-card">
+            <span class="mini-label">Forever</span>
+            <strong>Us</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat-card">
+          <span>Memories</span>
+          <strong>∞</strong>
+        </div>
+        <div class="stat-card">
+          <span>Smiles</span>
+          <strong>Too many</strong>
+        </div>
+        <div class="stat-card">
+          <span>Love</span>
+          <strong>Always</strong>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section">
+        <div class="section-heading">
+          <p class="eyebrow">Our little world</p>
+          <h2>Captured in every frame</h2>
+        </div>
+        <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="story" class="story-section">
+        <div class="section-heading">
+          <p class="eyebrow">Sweet little story</p>
+          <h2>How you make life feel beautiful</h2>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <span>01</span>
+            <h3>Your smile</h3>
+            <p>It changes the whole mood of the day and makes my world feel warmer.</p>
+          </article>
+          <article class="story-card">
+            <span>02</span>
+            <h3>Your presence</h3>
+            <p>Even quiet moments with you feel peaceful, safe, and full of meaning.</p>
+          </article>
+          <article class="story-card">
+            <span>03</span>
+            <h3>Our future</h3>
+            <p>I can already see a beautiful life unfolding, one full of love and us.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="message" class="love-note">
+        <div class="note-card">
+          <p class="note-text">
+            “You are my favorite person, my favorite smile, and my forever  ,your HENNA is nice i love it . So bad we don't have picture together hope one day you love to .”
+          </p>
+          <div class="signature">Love always, <span>Me</span></div>
+        </div>
+      </section>
+    </main>
+
+    <section class="profile-section" aria-label="Profile image">
+      <div class="profile-ring">
+        <img
+          src="WhatsApp Image 2026-10-12 at 9.35.19 AM.jpeg"
+          alt="Profile picture of my girl"
+        />
+      </div>
+      <p class="profile-name">My favorite girl</p>
+    </section>
+
+    <footer class="footer">Made with love for my girl.</footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lightboxClose" class="lightbox-close" aria-label="Close image">×</button>
+      <img id="lightboxImage" src="" alt="Expanded love memory" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
